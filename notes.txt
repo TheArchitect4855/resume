@@ -1,0 +1,4 @@
+# NOTES
+
+## TODO
+1. Maybe add dynamic dates (JS)
