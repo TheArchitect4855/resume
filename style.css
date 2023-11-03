@@ -43,8 +43,7 @@
 
 	section {
 		border-bottom: 1px solid black;
-		padding-bottom: 1rem;
-		padding-left: 1rem;
+		padding: 1rem;
 	}
 }
 
