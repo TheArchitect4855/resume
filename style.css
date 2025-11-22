@@ -1,15 +1,6 @@
-@media (max-width: 80ch) {
-	section {
-		margin-bottom: 1rem;
-	}
-}
-
 @media (min-width: 80ch) {
 	main {
-		display: grid;
-		gap: 1rem;
-		grid-auto-rows: 5rem;
-		grid-template-columns: repeat(3, 1fr);
+		padding-bottom: 1px;
 	}
 }
 
@@ -42,7 +33,7 @@ article {
 }
 
 body {
-	font-family: "Gantari", sans-serif;
+	font-family: "Times New Roman", serif;
 	font-size: 12pt;
 	margin: 0;
 	padding: 0;
@@ -62,6 +53,7 @@ p {
 }
 
 section {
+	margin-bottom: 1rem;
 	padding: 0 1rem;
 }
 
@@ -86,7 +78,7 @@ section.skills {
 }
 
 section.title {
-	background-color: #bcf4de;
+	border-bottom: 1px solid black;
 	padding: 1rem;
 
 	grid-area: 1 / 1 / 1 / 4;
