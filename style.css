@@ -51,11 +51,6 @@
 		box-sizing: border-box;
 		margin: 1rem auto;
 		max-width: 80ch;
-
-		display: grid;
-		gap: 1rem;
-		grid-auto-rows: 5rem;
-		grid-template-columns: repeat(3, 1fr);
 	}
 }
 
@@ -89,32 +84,15 @@ p {
 
 section {
 	padding: 0 1rem;
+	margin: 1rem 0;
 }
 
-section.bio {
-	grid-area: 2 / 2 / 4 / 4;
-}
-
-section.education {
-	grid-area: 9 / 2 / 11 / 4;
-}
-
-section.employment {
-	grid-area: 4 / 2 / 9 / 4;
-}
-
-section.info {
-	grid-area: 2 / 1 / 4 / 2;
-}
-
-section.skills {
-	grid-area: 4 / 1 / 12 / 2;
+section:last-child {
+	padding-bottom: 1rem;
 }
 
 section.title {
 	padding: 1rem;
-
-	grid-area: 1 / 1 / 1 / 4;
 }
 
 ul {
