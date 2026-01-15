@@ -61,6 +61,7 @@
 }
 
 article {
+	break-inside: avoid;
 	margin: 0.5rem 0;
 }
 
@@ -83,7 +84,6 @@ p {
 }
 
 section {
-	break-inside: avoid;
 	padding: 0 1rem;
 	margin: 1rem 0;
 }
